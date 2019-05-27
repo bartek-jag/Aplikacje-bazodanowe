@@ -1,0 +1,824 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="707853cf-61b6-46d4-8984-ee958c7a7a27" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hurtownia/main/controller/EmployeePanelScreenController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hurtownia/main/controller/EmployeePanelScreenController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hurtownia/main/controller/EmployeePanelScreenController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hurtownia/main/controller/LoginScreenController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hurtownia/main/controller/LoginScreenController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Hurtownia/main/controller/MainScreenController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hurtownia/main/controller/MainScreenController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/controller/EmployeePanelScreenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/controller/EmployeePanelScreenController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/controller/LoginScreenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/controller/LoginScreenController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/controller/MainScreenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/controller/MainScreenController.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="wholesale@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="wholesale@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="wholesale: database" type="ccb7ac2a:MsImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="wholesale@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="wholesale: database" type="ccb7ac2a:MsImplModel$Database" />
+        <item name="dbo: schema" type="2865ee2e:MsImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/controller/EmployeePanelScreenController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="93" column="5" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#0#21#1" expanded="true" />
+                <element signature="e#0#51#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/controller/LoginScreenController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+              <folding>
+                <element signature="e#546#547#0" expanded="true" />
+                <element signature="e#584#585#0" expanded="true" />
+                <element signature="e#0#45#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/controller/MainScreenController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#540#541#0" expanded="true" />
+                <element signature="e#573#574#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="module-info" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Customer</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/model/CustomerEntity.java" />
+        <option value="$PROJECT_DIR$/src/model/GasType.java" />
+        <option value="$PROJECT_DIR$/src/model/OrderDetails.java" />
+        <option value="$PROJECT_DIR$/src/model/Beverage.java" />
+        <option value="$PROJECT_DIR$/src/model/Customer.java" />
+        <option value="$PROJECT_DIR$/src/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/main.fxml" />
+        <option value="$PROJECT_DIR$/src/model/Users.java" />
+        <option value="$PROJECT_DIR$/src/main/mainScreen.fxml" />
+        <option value="$PROJECT_DIR$/src/main/loginScreen.fxml" />
+        <option value="$PROJECT_DIR$/src/main/employeePanelScreen.fxml" />
+        <option value="$PROJECT_DIR$/src/model/Orders.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/model/Orders.java" />
+        <option value="$PROJECT_DIR$/src/controller/MainScreenController.java" />
+        <option value="$PROJECT_DIR$/src/controller/LoginScreenController.java" />
+        <option value="$PROJECT_DIR$/src/controller/EmployeePanelScreenController.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/module-info.java" />
+        <option value="$PROJECT_DIR$/src/main/fxml/employeePanelScreen.fxml" />
+        <option value="$PROJECT_DIR$/src/main/model/Orders.java" />
+        <option value="$PROJECT_DIR$/src/main/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/fxml/mainScreen.fxml" />
+        <option value="$PROJECT_DIR$/src/main/model/Orders.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/main/model/Order.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/main/model/OrderDetails.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/main/model/OrderEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/HibernateTest.java" />
+        <option value="$PROJECT_DIR$/src/main/model/OrdersEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/model/OrdersViewEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/model/OrderDetailsEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/model/OorderEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/model/BeverageEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/model/CustomerEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/model/BeverageTypeEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/model/EmployeeEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/model/FlavorEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/model/GasTypeEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/model/ProviderEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/model/PackageEntity.java" />
+        <option value="$PROJECT_DIR$/src/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/main/HibernateUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/model/OrderDetailsViewEntity.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/main/model/OrderDetailsViewEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/controller/LoginScreenController.java" />
+        <option value="$PROJECT_DIR$/src/main/controller/MainScreenController.java" />
+        <option value="$PROJECT_DIR$/src/main/controller/EmployeePanelScreenController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="258" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Hurtownia2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hurtownia2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hurtownia2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hurtownia2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hurtownia2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hurtownia2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hurtownia2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hurtownia2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hurtownia2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hurtownia2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="fxml" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlserver" />
+    <property name="JPA.DatabaseSchemaImportDialog" value="784ac5e9-8f79-40e4-9a26-c262df78bbc1" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/model/OrderDetailsEntity.hbm.xml" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="main.model" />
+      <recent name="" />
+      <recent name="model" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\barto\IdeaProjects\Hurtownia2\src\main\fxml" />
+      <recent name="C:\Users\barto\IdeaProjects\Hurtownia2\src\main" />
+      <recent name="C:\Users\barto\IdeaProjects\Hurtownia2\src\fxml" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="HibernateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.HibernateTest" />
+      <module name="Hurtownia" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HibernateUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.HibernateUtil" />
+      <module name="Hurtownia" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Main" />
+      <module name="Hurtownia" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Hurtownia" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.HibernateTest" />
+      <item itemvalue="Application.HibernateUtil" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.HibernateTest" />
+        <item itemvalue="Application.HibernateUtil" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="707853cf-61b6-46d4-8984-ee958c7a7a27" name="Default Changelist" comment="" />
+      <created>1557845182671</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557845182671</updated>
+      <workItem from="1557845186534" duration="14758000" />
+      <workItem from="1557999002329" duration="1980000" />
+      <workItem from="1558435364495" duration="300000" />
+      <workItem from="1558457074090" duration="15257000" />
+      <workItem from="1558723445995" duration="32590000" />
+      <workItem from="1558891123468" duration="17880000" />
+      <workItem from="1558945809678" duration="4391000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="87156000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8022876" visible="true" weight="0.19701986" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="EJB" order="2" side_tool="true" />
+      <window_info id="Persistence" order="3" sideWeight="0.19771242" side_tool="true" weight="0.19481236" />
+      <window_info id="Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49779248" weight="0.32882413" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8013245" visible="true" weight="0.36316338" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49944812" weight="0.39958376" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32917964" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="SQL Generator" order="10" sideWeight="0.49944445" weight="0.32870865" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49944812" weight="0.32917964" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.1986755" side_tool="true" weight="0.36316338" />
+      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49117" weight="0.32778355" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32917964" />
+      <window_info anchor="bottom" id="Database Console" order="15" sideWeight="0.49889624" weight="0.32916668" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.24282561" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8022876" visible="true" weight="0.19481236" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="EJB" order="2" side_tool="true" />
+      <window_info id="Persistence" order="3" sideWeight="0.19771242" side_tool="true" visible="true" weight="0.19481236" />
+      <window_info id="Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49779248" weight="0.32882413" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8013245" visible="true" weight="0.36316338" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49944812" weight="0.39958376" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32917964" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="SQL Generator" order="10" sideWeight="0.49944445" weight="0.32870865" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49944812" weight="0.32917964" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.1986755" side_tool="true" visible="true" weight="0.36316338" />
+      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49117" weight="0.32778355" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32917964" />
+      <window_info anchor="bottom" id="Database Console" order="15" sideWeight="0.49889624" weight="0.32916668" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.24282561" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/messages_pl.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/fxml/loginScreen.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://784ac5e9-8f79-40e4-9a26-c262df78bbc1/database/wholesale/schema/dbo/view/orders" />
+    <entry file="uml://Persistence/JavaeeElement:/77638dc7/hibernate.cfg.xml/Hurtownia/hibernate/Hibernate/PersistenceModel">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Persistence</ID>
+          <OriginalElement>JavaeeElement:/77638dc7/hibernate.cfg.xml/Hurtownia/hibernate/Hibernate/PersistenceModel</OriginalElement>
+          <nodes>
+            <node x="" y="">Customer#file://C:/Users/barto/IdeaProjects/Hurtownia2/src/main/model/Customer.java</node>
+            <node x="" y="">Package#file://C:/Users/barto/IdeaProjects/Hurtownia2/src/main/model/Package.java</node>
+            <node x="" y="">Manufacturer#file://C:/Users/barto/IdeaProjects/Hurtownia2/src/main/model/Manufacturer.java</node>
+            <node x="" y="">Provider#file://C:/Users/barto/IdeaProjects/Hurtownia2/src/main/model/Provider.java</node>
+            <node x="" y="">GasType#file://C:/Users/barto/IdeaProjects/Hurtownia2/src/main/model/GasType.java</node>
+            <node x="" y="">Flavor#file://C:/Users/barto/IdeaProjects/Hurtownia2/src/main/model/Flavor.java</node>
+            <node x="" y="">Employee#file://C:/Users/barto/IdeaProjects/Hurtownia2/src/main/model/Employee.java</node>
+            <node x="" y="">BeverageType#file://C:/Users/barto/IdeaProjects/Hurtownia2/src/main/model/BeverageType.java</node>
+            <node x="" y="">BeverageName#file://C:/Users/barto/IdeaProjects/Hurtownia2/src/main/model/BeverageName.java</node>
+            <node x="" y="">Beverage#file://C:/Users/barto/IdeaProjects/Hurtownia2/src/main/model/Beverage.java</node>
+            <node x="" y="">OldAdress#file://C:/Users/barto/IdeaProjects/Hurtownia2/src/main/model/OldAdress.java</node>
+            <node x="" y="">Users#file://C:/Users/barto/IdeaProjects/Hurtownia2/src/main/model/Users.java</node>
+            <node x="" y="">OrderDetails#file://C:/Users/barto/IdeaProjects/Hurtownia2/src/main/model/OrderDetails.java</node>
+            <node x="" y="">Order#file://C:/Users/barto/IdeaProjects/Hurtownia2/src/main/model/Order.java</node>
+            <node x="" y="">Orders#file://C:/Users/barto/IdeaProjects/Hurtownia2/src/main/model/Orders.java</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.8156808803301238" x="489.0" y="286.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Properties</Category>
+            <Category>Embeddables</Category>
+            <Category>Superclasses</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/model/Users.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/fxml/mainScreen.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/model/Orders.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/model/ViewOrderDetails.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/model/Orders.hbm.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/model/Manufacturer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/model/OrderDetailsPK.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/model/GasType.java" />
+    <entry file="das://784ac5e9-8f79-40e4-9a26-c262df78bbc1/database/wholesale/schema/dbo/view/view_orderDetails" />
+    <entry file="file://$PROJECT_DIR$/src/main/model/Beverage.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/model/OrderDetails.hbm.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/model/OrderEntity.hbm.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/model/OrderDetails.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/model/Package.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/model/Provider.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/model/Employee.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/model/Customer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/model/Flavor.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/model/OrderEntity.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/model/Order.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/model/OrdersEntity.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/model/OorderEntity.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/model/OrderDetailsEntity.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/784ac5e9-8f79-40e4-9a26-c262df78bbc1.DATABASE:wholesale">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>784ac5e9-8f79-40e4-9a26-c262df78bbc1.DATABASE:wholesale</OriginalElement>
+          <nodes>
+            <node x="" y="">784ac5e9-8f79-40e4-9a26-c262df78bbc1.TABLE:wholesale.dbo.oorder</node>
+            <node x="" y="">784ac5e9-8f79-40e4-9a26-c262df78bbc1.TABLE:wholesale.dbo.customer</node>
+            <node x="" y="">784ac5e9-8f79-40e4-9a26-c262df78bbc1.TABLE:wholesale.dbo.beverageName</node>
+            <node x="" y="">784ac5e9-8f79-40e4-9a26-c262df78bbc1.TABLE:wholesale.dbo.beverageType</node>
+            <node x="" y="">784ac5e9-8f79-40e4-9a26-c262df78bbc1.TABLE:wholesale.dbo.beverage</node>
+            <node x="" y="">784ac5e9-8f79-40e4-9a26-c262df78bbc1.TABLE:wholesale.dbo.gasType</node>
+            <node x="" y="">784ac5e9-8f79-40e4-9a26-c262df78bbc1.TABLE:wholesale.dbo.employee</node>
+            <node x="" y="">784ac5e9-8f79-40e4-9a26-c262df78bbc1.TABLE:wholesale.dbo.flavor</node>
+            <node x="" y="">784ac5e9-8f79-40e4-9a26-c262df78bbc1.TABLE:wholesale.dbo.provider</node>
+            <node x="" y="">784ac5e9-8f79-40e4-9a26-c262df78bbc1.VIEW:wholesale.dbo.ordersView</node>
+            <node x="" y="">784ac5e9-8f79-40e4-9a26-c262df78bbc1.TABLE:wholesale.dbo.package</node>
+            <node x="" y="">784ac5e9-8f79-40e4-9a26-c262df78bbc1.TABLE:wholesale.dbo.orderDetails</node>
+            <node x="" y="">784ac5e9-8f79-40e4-9a26-c262df78bbc1.TABLE:wholesale.dbo.manufacturer</node>
+            <node x="" y="">784ac5e9-8f79-40e4-9a26-c262df78bbc1.TABLE:wholesale.dbo.users</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.660591133004926" x="1084.0" y="353.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/model/BeverageNameEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/model/OrderDetailsEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1144">
+          <caret line="59" column="5" lean-forward="true" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/HibernateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#0#19#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/fxml/employeePanelScreen.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="28" column="81" lean-forward="true" selection-start-line="28" selection-start-column="81" selection-end-line="28" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/model/CustomerEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="141" column="18" selection-start-line="141" selection-start-column="18" selection-end-line="141" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/model/EmployeeEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="105" column="18" selection-start-line="105" selection-start-column="18" selection-end-line="105" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/model/FlavorEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="57" column="18" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/model/GasTypeEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="57" column="18" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/model/OorderEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/model/UsersEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/model/ProviderEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="93" column="18" selection-start-line="93" selection-start-column="18" selection-end-line="93" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/model/PackageEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="954">
+          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/model/BeverageTypeEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="70" column="18" selection-start-line="70" selection-start-column="18" selection-end-line="70" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/model/OrdersViewEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/model/OrderDetailsViewEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1690">
+          <caret line="98" column="5" selection-start-line="98" selection-start-column="5" selection-end-line="98" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/model/OrderDetailsViewEntity.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="832">
+          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="45" column="71" selection-start-line="45" selection-start-column="71" selection-end-line="45" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/HibernateUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="37" column="33" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/model/BeverageEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/controller/MainScreenController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/controller/LoginScreenController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+          <folding>
+            <element signature="e#546#547#0" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+            <element signature="e#0#45#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/controller/EmployeePanelScreenController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="93" column="5" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#0#21#1" expanded="true" />
+            <element signature="e#0#51#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>Hurtownia:EJB exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Hibernate (Hurtownia)|Hibernate</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>adaptive</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Hibernate|Hurtownia</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Hibernate 5.4.2-5.4.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

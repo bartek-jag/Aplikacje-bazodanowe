@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="main.model.CustomerEntity" table="customer" schema="dbo" catalog="wholesale">
+        <id name="id">
+            <column name="id" sql-type="int"/>
+        </id>
+        <property name="firstName">
+            <column name="firstName" sql-type="nvarchar(30)" length="30"/>
+        </property>
+        <property name="lastName">
+            <column name="lastName" sql-type="nvarchar(30)" length="30"/>
+        </property>
+        <property name="email">
+            <column name="email" sql-type="nvarchar(50)" length="50" not-null="true"/>
+        </property>
+        <property name="phoneNumber">
+            <column name="phoneNumber" sql-type="nvarchar(20)" length="20" not-null="true"/>
+        </property>
+        <property name="city">
+            <column name="city" sql-type="nvarchar(50)" length="50"/>
+        </property>
+        <property name="postalCode">
+            <column name="postalCode" sql-type="nvarchar(6)" length="6"/>
+        </property>
+        <property name="street">
+            <column name="street" sql-type="nvarchar(30)" length="30"/>
+        </property>
+        <property name="number">
+            <column name="number" sql-type="nvarchar(10)" length="10"/>
+        </property>
+        <set name="oordersById" inverse="true">
+            <key>
+                <column name="customerId"/>
+            </key>
+            <one-to-many not-found="ignore" class="main.model.OorderEntity"/>
+        </set>
+    </class>
+</hibernate-mapping>

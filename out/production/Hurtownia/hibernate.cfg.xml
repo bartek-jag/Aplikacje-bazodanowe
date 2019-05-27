@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="connection.url">jdbc:sqlserver://localhost;database=wholesale</property>
+        <property name="connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
+        <property name="hibernate.current_session_context_class">thread</property>
+        <!--    <property name="hibernate.hbm2ddl.auto">update</property>-->
+        <property name="dialect">org.hibernate.dialect.SQLServerDialect</property>
+        <property name="hibernate.connection.username">sa</property>
+        <property name="hibernate.connection.password">ZAQ!2wsx</property>
+
+        <!--    <property name="connection.pool_size">1</property>-->
+        <!--    <property name="show_sql">false</property>-->
+
+        <mapping resource="main/model/BeverageEntity.hbm.xml"/>
+        <mapping class="main.model.BeverageEntity"/>
+        <mapping resource="main/model/BeverageNameEntity.hbm.xml"/>
+        <mapping class="main.model.BeverageNameEntity"/>
+        <mapping resource="main/model/BeverageTypeEntity.hbm.xml"/>
+        <mapping class="main.model.BeverageTypeEntity"/>
+        <mapping resource="main/model/CustomerEntity.hbm.xml"/>
+        <mapping class="main.model.CustomerEntity"/>
+        <mapping resource="main/model/EmployeeEntity.hbm.xml"/>
+        <mapping class="main.model.EmployeeEntity"/>
+        <mapping resource="main/model/FlavorEntity.hbm.xml"/>
+        <mapping class="main.model.FlavorEntity"/>
+        <mapping resource="main/model/GasTypeEntity.hbm.xml"/>
+        <mapping class="main.model.GasTypeEntity"/>
+        <mapping resource="main/model/ManufacturerEntity.hbm.xml"/>
+        <mapping class="main.model.ManufacturerEntity"/>
+        <mapping resource="main/model/OorderEntity.hbm.xml"/>
+        <mapping class="main.model.OorderEntity"/>
+        <mapping resource="main/model/OrderDetailsEntity.hbm.xml"/>
+        <mapping class="main.model.OrderDetailsEntity"/>
+        <mapping resource="main/model/PackageEntity.hbm.xml"/>
+        <mapping class="main.model.PackageEntity"/>
+        <mapping resource="main/model/ProviderEntity.hbm.xml"/>
+        <mapping class="main.model.ProviderEntity"/>
+        <mapping resource="main/model/UsersEntity.hbm.xml"/>
+        <mapping class="main.model.UsersEntity"/>
+        <mapping resource="main/model/OrdersViewEntity.hbm.xml"/>
+        <mapping class="main.model.OrdersViewEntity"/>
+        <mapping resource="main/model/OrderDetailsViewEntity.hbm.xml"/>
+        <mapping class="main.model.OrderDetailsViewEntity"/>
+
+
+        <!-- DB schema will be updated if needed -->
+
+    </session-factory>
+</hibernate-configuration>

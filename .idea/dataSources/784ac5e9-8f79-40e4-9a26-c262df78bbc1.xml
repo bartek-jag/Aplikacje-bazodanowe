@@ -1,0 +1,841 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="wholesale@localhost">
+  <database-model serializer="dbm" dbms="MSSQL" family-id="MSSQL" format-version="4.15">
+    <root id="1">
+      <ServerVersion>14.0.1000</ServerVersion>
+    </root>
+    <database id="2" parent="1" name="master">
+      <ObjectId>1</ObjectId>
+      <Collation>Polish_CI_AS</Collation>
+    </database>
+    <database id="3" parent="1" name="model">
+      <ObjectId>3</ObjectId>
+      <Collation>Polish_CI_AS</Collation>
+    </database>
+    <database id="4" parent="1" name="msdb">
+      <ObjectId>4</ObjectId>
+      <Collation>Polish_CI_AS</Collation>
+    </database>
+    <database id="5" parent="1" name="tempdb">
+      <ObjectId>2</ObjectId>
+      <Collation>Polish_CI_AS</Collation>
+    </database>
+    <database id="6" parent="1" name="wholesale">
+      <ObjectId>5</ObjectId>
+      <Current>1</Current>
+      <Visible>1</Visible>
+      <Collation>Polish_CI_AS</Collation>
+      <Fingerprint>5.43592/472294A4-F507-43CD-86B8-9C40170C0144@DESKTOP-9OFUV21</Fingerprint>
+    </database>
+    <schema id="7" parent="6" name="INFORMATION_SCHEMA">
+      <ObjectId>3</ObjectId>
+    </schema>
+    <schema id="8" parent="6" name="db_accessadmin">
+      <ObjectId>16385</ObjectId>
+    </schema>
+    <schema id="9" parent="6" name="db_backupoperator">
+      <ObjectId>16389</ObjectId>
+    </schema>
+    <schema id="10" parent="6" name="db_datareader">
+      <ObjectId>16390</ObjectId>
+    </schema>
+    <schema id="11" parent="6" name="db_datawriter">
+      <ObjectId>16391</ObjectId>
+    </schema>
+    <schema id="12" parent="6" name="db_ddladmin">
+      <ObjectId>16387</ObjectId>
+    </schema>
+    <schema id="13" parent="6" name="db_denydatareader">
+      <ObjectId>16392</ObjectId>
+    </schema>
+    <schema id="14" parent="6" name="db_denydatawriter">
+      <ObjectId>16393</ObjectId>
+    </schema>
+    <schema id="15" parent="6" name="db_owner">
+      <ObjectId>16384</ObjectId>
+    </schema>
+    <schema id="16" parent="6" name="db_securityadmin">
+      <ObjectId>16386</ObjectId>
+    </schema>
+    <schema id="17" parent="6" name="dbo">
+      <ObjectId>1</ObjectId>
+      <IntrospectionTimestamp>2019-05-27.01:42:28.563</IntrospectionTimestamp>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="18" parent="6" name="guest">
+      <ObjectId>2</ObjectId>
+    </schema>
+    <schema id="19" parent="6" name="sys">
+      <ObjectId>4</ObjectId>
+    </schema>
+    <table id="20" parent="17" name="beverage">
+      <ObjectId>1154103152</ObjectId>
+      <CreatedTimestamp>2019-05-27.00:58:31.953</CreatedTimestamp>
+      <ModifiedTimestamp>2019-05-27.00:58:31.960</ModifiedTimestamp>
+    </table>
+    <table id="21" parent="17" name="beverageName">
+      <ObjectId>1026102696</ObjectId>
+      <CreatedTimestamp>2019-05-27.00:58:31.947</CreatedTimestamp>
+      <ModifiedTimestamp>2019-05-27.00:58:31.953</ModifiedTimestamp>
+    </table>
+    <table id="22" parent="17" name="beverageType">
+      <ObjectId>994102582</ObjectId>
+      <CreatedTimestamp>2019-05-27.00:58:31.947</CreatedTimestamp>
+      <ModifiedTimestamp>2019-05-27.00:58:31.953</ModifiedTimestamp>
+    </table>
+    <table id="23" parent="17" name="customer">
+      <ObjectId>770101784</ObjectId>
+      <CreatedTimestamp>2019-05-27.00:58:31.920</CreatedTimestamp>
+      <ModifiedTimestamp>2019-05-27.00:58:31.940</ModifiedTimestamp>
+    </table>
+    <table id="24" parent="17" name="employee">
+      <ObjectId>802101898</ObjectId>
+      <CreatedTimestamp>2019-05-27.00:58:31.933</CreatedTimestamp>
+      <ModifiedTimestamp>2019-05-27.00:58:31.943</ModifiedTimestamp>
+    </table>
+    <table id="25" parent="17" name="flavor">
+      <ObjectId>1090102924</ObjectId>
+      <CreatedTimestamp>2019-05-27.00:58:31.950</CreatedTimestamp>
+      <ModifiedTimestamp>2019-05-27.00:58:31.957</ModifiedTimestamp>
+    </table>
+    <table id="26" parent="17" name="gasType">
+      <ObjectId>962102468</ObjectId>
+      <CreatedTimestamp>2019-05-27.00:58:31.943</CreatedTimestamp>
+      <ModifiedTimestamp>2019-05-27.00:58:31.953</ModifiedTimestamp>
+    </table>
+    <table id="27" parent="17" name="manufacturer">
+      <ObjectId>850102069</ObjectId>
+      <CreatedTimestamp>2019-05-27.00:58:31.937</CreatedTimestamp>
+      <ModifiedTimestamp>2019-05-27.00:58:31.953</ModifiedTimestamp>
+    </table>
+    <table id="28" parent="17" name="oorder">
+      <ObjectId>882102183</ObjectId>
+      <CreatedTimestamp>2019-05-27.00:58:31.940</CreatedTimestamp>
+      <ModifiedTimestamp>2019-05-27.00:58:31.960</ModifiedTimestamp>
+    </table>
+    <table id="29" parent="17" name="orderDetails">
+      <ObjectId>1314103722</ObjectId>
+      <CreatedTimestamp>2019-05-27.00:58:31.957</CreatedTimestamp>
+      <ModifiedTimestamp>2019-05-27.00:58:31.957</ModifiedTimestamp>
+    </table>
+    <table id="30" parent="17" name="package">
+      <ObjectId>1058102810</ObjectId>
+      <CreatedTimestamp>2019-05-27.00:58:31.947</CreatedTimestamp>
+      <ModifiedTimestamp>2019-05-27.00:58:31.957</ModifiedTimestamp>
+    </table>
+    <table id="31" parent="17" name="provider">
+      <ObjectId>1122103038</ObjectId>
+      <CreatedTimestamp>2019-05-27.00:58:31.950</CreatedTimestamp>
+      <ModifiedTimestamp>2019-05-27.00:58:31.953</ModifiedTimestamp>
+    </table>
+    <table id="32" parent="17" name="users">
+      <ObjectId>1394104007</ObjectId>
+      <CreatedTimestamp>2019-05-27.00:58:31.963</CreatedTimestamp>
+      <ModifiedTimestamp>2019-05-27.00:58:31.963</ModifiedTimestamp>
+    </table>
+    <view id="33" parent="17" name="orderDetailsView">
+      <ObjectId>1442104178</ObjectId>
+      <SourceTextLength>678</SourceTextLength>
+      <CreatedTimestamp>2019-05-27.01:42:18.443</CreatedTimestamp>
+      <ModifiedTimestamp>2019-05-27.01:42:18.443</ModifiedTimestamp>
+    </view>
+    <view id="34" parent="17" name="ordersView">
+      <ObjectId>1426104121</ObjectId>
+      <SourceTextLength>168</SourceTextLength>
+      <CreatedTimestamp>2019-05-27.01:06:59.630</CreatedTimestamp>
+      <ModifiedTimestamp>2019-05-27.01:06:59.630</ModifiedTimestamp>
+    </view>
+    <column id="35" parent="20" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="36" parent="20" name="beverageNameId">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="37" parent="20" name="manufacturerId">
+      <Position>3</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="38" parent="20" name="providerId">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="39" parent="20" name="beverageTypeId">
+      <Position>5</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="40" parent="20" name="gasTypeId">
+      <Position>6</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="41" parent="20" name="flavorId">
+      <Position>7</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="42" parent="20" name="packageId">
+      <Position>8</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="43" parent="20" name="quantity">
+      <Position>9</Position>
+      <DefaultConstraintName>DF__beverage__quanti__46B27FE2</DefaultConstraintName>
+      <DefaultExpression>0</DefaultExpression>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="44" parent="20" name="price">
+      <Position>10</Position>
+      <DataType>money|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="45" parent="20" name="PK_beverage">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="46" parent="20" name="PK_beverage">
+      <ObjectId>1170103209</ObjectId>
+      <CreatedTimestamp>2019-05-27.00:58:31.953</CreatedTimestamp>
+      <ModifiedTimestamp>2019-05-27.00:58:31.953</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_beverage</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="47" parent="20" name="FK_beverage_beverageName">
+      <ObjectId>1202103323</ObjectId>
+      <CreatedTimestamp>2019-05-27.00:58:31.953</CreatedTimestamp>
+      <ModifiedTimestamp>2019-05-27.00:58:31.953</ModifiedTimestamp>
+      <ColNames>beverageNameId</ColNames>
+      <RefTableId>1026102696</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>beverageName</RefTableName>
+      <RefKeyName>PK_beverageName</RefKeyName>
+      <RefColNames>id</RefColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <foreign-key id="48" parent="20" name="FK_beverage_manufacturer">
+      <ObjectId>1218103380</ObjectId>
+      <CreatedTimestamp>2019-05-27.00:58:31.953</CreatedTimestamp>
+      <ModifiedTimestamp>2019-05-27.00:58:31.953</ModifiedTimestamp>
+      <ColNames>manufacturerId</ColNames>
+      <RefTableId>850102069</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>manufacturer</RefTableName>
+      <RefKeyName>PK_manufacturer</RefKeyName>
+      <RefColNames>id</RefColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <foreign-key id="49" parent="20" name="FK_beverage_provider">
+      <ObjectId>1234103437</ObjectId>
+      <CreatedTimestamp>2019-05-27.00:58:31.953</CreatedTimestamp>
+      <ModifiedTimestamp>2019-05-27.00:58:31.953</ModifiedTimestamp>
+      <ColNames>providerId</ColNames>
+      <RefTableId>1122103038</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>provider</RefTableName>
+      <RefKeyName>PK_provider</RefKeyName>
+      <RefColNames>id</RefColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <foreign-key id="50" parent="20" name="FK_beverage_beverageType">
+      <ObjectId>1250103494</ObjectId>
+      <CreatedTimestamp>2019-05-27.00:58:31.953</CreatedTimestamp>
+      <ModifiedTimestamp>2019-05-27.00:58:31.953</ModifiedTimestamp>
+      <ColNames>beverageTypeId</ColNames>
+      <RefTableId>994102582</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>beverageType</RefTableName>
+      <RefKeyName>PK_beverageType</RefKeyName>
+      <RefColNames>id</RefColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <foreign-key id="51" parent="20" name="FK_beverage_gasType">
+      <ObjectId>1266103551</ObjectId>
+      <CreatedTimestamp>2019-05-27.00:58:31.953</CreatedTimestamp>
+      <ModifiedTimestamp>2019-05-27.00:58:31.953</ModifiedTimestamp>
+      <ColNames>gasTypeId</ColNames>
+      <RefTableId>962102468</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>gasType</RefTableName>
+      <RefKeyName>PK_gasType</RefKeyName>
+      <RefColNames>id</RefColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <foreign-key id="52" parent="20" name="FK_beverage_id">
+      <ObjectId>1282103608</ObjectId>
+      <CreatedTimestamp>2019-05-27.00:58:31.957</CreatedTimestamp>
+      <ModifiedTimestamp>2019-05-27.00:58:31.957</ModifiedTimestamp>
+      <ColNames>flavorId</ColNames>
+      <RefTableId>1090102924</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>flavor</RefTableName>
+      <RefKeyName>PK_flavor</RefKeyName>
+      <RefColNames>id</RefColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <foreign-key id="53" parent="20" name="FK_beverage_package">
+      <ObjectId>1298103665</ObjectId>
+      <CreatedTimestamp>2019-05-27.00:58:31.957</CreatedTimestamp>
+      <ModifiedTimestamp>2019-05-27.00:58:31.957</ModifiedTimestamp>
+      <ColNames>packageId</ColNames>
+      <RefTableId>1058102810</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>package</RefTableName>
+      <RefKeyName>PK_package</RefKeyName>
+      <RefColNames>id</RefColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <default id="54" parent="20" name="DF__beverage__quanti__46B27FE2">
+      <ObjectId>1186103266</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2019-05-27.00:58:31.953</ModifiedTimestamp>
+      <ColNames>quantity</ColNames>
+      <DefaultExpression>0</DefaultExpression>
+    </default>
+    <column id="55" parent="21" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="56" parent="21" name="name">
+      <Position>2</Position>
+      <DataType>nvarchar(30 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="57" parent="21" name="PK_beverageName">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="58" parent="21" name="PK_beverageName">
+      <ObjectId>1042102753</ObjectId>
+      <CreatedTimestamp>2019-05-27.00:58:31.947</CreatedTimestamp>
+      <ModifiedTimestamp>2019-05-27.00:58:31.947</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_beverageName</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="59" parent="22" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="60" parent="22" name="beverageType">
+      <Position>2</Position>
+      <DataType>nvarchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="61" parent="22" name="tax">
+      <Position>3</Position>
+      <DataType>decimal(5,2)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="62" parent="22" name="PK_beverageType">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="63" parent="22" name="PK_beverageType">
+      <ObjectId>1010102639</ObjectId>
+      <CreatedTimestamp>2019-05-27.00:58:31.947</CreatedTimestamp>
+      <ModifiedTimestamp>2019-05-27.00:58:31.947</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_beverageType</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="64" parent="23" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="65" parent="23" name="firstName">
+      <Position>2</Position>
+      <DataType>nvarchar(30 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="66" parent="23" name="lastName">
+      <Position>3</Position>
+      <DataType>nvarchar(30 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="67" parent="23" name="email">
+      <Position>4</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+    </column>
+    <column id="68" parent="23" name="phoneNumber">
+      <Position>5</Position>
+      <DataType>nvarchar(20 char)|0s</DataType>
+    </column>
+    <column id="69" parent="23" name="city">
+      <Position>6</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="70" parent="23" name="postalCode">
+      <Position>7</Position>
+      <DataType>nvarchar(6 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="71" parent="23" name="street">
+      <Position>8</Position>
+      <DataType>nvarchar(30 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="72" parent="23" name="number">
+      <Position>9</Position>
+      <DataType>nvarchar(10 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="73" parent="23" name="PK_customer">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="74" parent="23" name="PK_customer">
+      <ObjectId>786101841</ObjectId>
+      <CreatedTimestamp>2019-05-27.00:58:31.933</CreatedTimestamp>
+      <ModifiedTimestamp>2019-05-27.00:58:31.933</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_customer</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="75" parent="24" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="76" parent="24" name="firstName">
+      <Position>2</Position>
+      <DataType>nvarchar(30 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="77" parent="24" name="lastName">
+      <Position>3</Position>
+      <DataType>nvarchar(30 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="78" parent="24" name="email">
+      <Position>4</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="79" parent="24" name="phoneNumber">
+      <Position>5</Position>
+      <DataType>nvarchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="80" parent="24" name="isFired">
+      <Position>6</Position>
+      <DefaultConstraintName>DF__employee__isFire__31B762FC</DefaultConstraintName>
+      <DefaultExpression>0</DefaultExpression>
+      <DataType>bit|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="81" parent="24" name="PK_employee">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="82" parent="24" name="PK_employee">
+      <ObjectId>818101955</ObjectId>
+      <CreatedTimestamp>2019-05-27.00:58:31.933</CreatedTimestamp>
+      <ModifiedTimestamp>2019-05-27.00:58:31.933</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_employee</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <default id="83" parent="24" name="DF__employee__isFire__31B762FC">
+      <ObjectId>834102012</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2019-05-27.00:58:31.937</ModifiedTimestamp>
+      <ColNames>isFired</ColNames>
+      <DefaultExpression>0</DefaultExpression>
+    </default>
+    <column id="84" parent="25" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="85" parent="25" name="flavor">
+      <Position>2</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="86" parent="25" name="PK_flavor">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="87" parent="25" name="PK_flavor">
+      <ObjectId>1106102981</ObjectId>
+      <CreatedTimestamp>2019-05-27.00:58:31.950</CreatedTimestamp>
+      <ModifiedTimestamp>2019-05-27.00:58:31.950</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_flavor</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="88" parent="26" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="89" parent="26" name="gasType">
+      <Position>2</Position>
+      <DataType>nvarchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="90" parent="26" name="PK_gasType">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="91" parent="26" name="PK_gasType">
+      <ObjectId>978102525</ObjectId>
+      <CreatedTimestamp>2019-05-27.00:58:31.947</CreatedTimestamp>
+      <ModifiedTimestamp>2019-05-27.00:58:31.947</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_gasType</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="92" parent="27" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="93" parent="27" name="name">
+      <Position>2</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="94" parent="27" name="PK_manufacturer">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="95" parent="27" name="PK_manufacturer">
+      <ObjectId>866102126</ObjectId>
+      <CreatedTimestamp>2019-05-27.00:58:31.940</CreatedTimestamp>
+      <ModifiedTimestamp>2019-05-27.00:58:31.940</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_manufacturer</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="96" parent="28" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="97" parent="28" name="customerId">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="98" parent="28" name="employeeId">
+      <Position>3</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="99" parent="28" name="orderDate">
+      <Position>4</Position>
+      <DefaultConstraintName>DF__oorder__orderDat__367C1819</DefaultConstraintName>
+      <DefaultExpression>getdate()</DefaultExpression>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="100" parent="28" name="PK_oorder">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="101" parent="28" name="PK_oorder">
+      <ObjectId>898102240</ObjectId>
+      <CreatedTimestamp>2019-05-27.00:58:31.940</CreatedTimestamp>
+      <ModifiedTimestamp>2019-05-27.00:58:31.940</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_oorder</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="102" parent="28" name="FK_oorder_customer">
+      <ObjectId>930102354</ObjectId>
+      <CreatedTimestamp>2019-05-27.00:58:31.940</CreatedTimestamp>
+      <ModifiedTimestamp>2019-05-27.00:58:31.940</ModifiedTimestamp>
+      <ColNames>customerId</ColNames>
+      <RefTableId>770101784</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>customer</RefTableName>
+      <RefKeyName>PK_customer</RefKeyName>
+      <RefColNames>id</RefColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <foreign-key id="103" parent="28" name="FK_oorder_employee">
+      <ObjectId>946102411</ObjectId>
+      <CreatedTimestamp>2019-05-27.00:58:31.940</CreatedTimestamp>
+      <ModifiedTimestamp>2019-05-27.00:58:31.940</ModifiedTimestamp>
+      <ColNames>employeeId</ColNames>
+      <RefTableId>802101898</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>employee</RefTableName>
+      <RefKeyName>PK_employee</RefKeyName>
+      <RefColNames>id</RefColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <default id="104" parent="28" name="DF__oorder__orderDat__367C1819">
+      <ObjectId>914102297</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2019-05-27.00:58:31.940</ModifiedTimestamp>
+      <ColNames>orderDate</ColNames>
+      <DefaultExpression>getdate()</DefaultExpression>
+    </default>
+    <column id="105" parent="29" name="oorderId">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="106" parent="29" name="beverageId">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="107" parent="29" name="quantity">
+      <Position>3</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="108" parent="29" name="PK_orderDetails">
+      <Position>1</Position>
+      <ColNames>oorderId
+beverageId</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="109" parent="29" name="PK_orderDetails">
+      <ObjectId>1330103779</ObjectId>
+      <CreatedTimestamp>2019-05-27.00:58:31.960</CreatedTimestamp>
+      <ModifiedTimestamp>2019-05-27.00:58:31.960</ModifiedTimestamp>
+      <ColNames>oorderId
+beverageId</ColNames>
+      <UnderlyingIndexName>PK_orderDetails</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="110" parent="29" name="FK_orderDetails_oorder">
+      <ObjectId>1346103836</ObjectId>
+      <CreatedTimestamp>2019-05-27.00:58:31.960</CreatedTimestamp>
+      <ModifiedTimestamp>2019-05-27.00:58:31.960</ModifiedTimestamp>
+      <ColNames>oorderId</ColNames>
+      <RefTableId>882102183</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>oorder</RefTableName>
+      <RefKeyName>PK_oorder</RefKeyName>
+      <RefColNames>id</RefColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <foreign-key id="111" parent="29" name="FK_orderDetails_beverage">
+      <ObjectId>1362103893</ObjectId>
+      <CreatedTimestamp>2019-05-27.00:58:31.960</CreatedTimestamp>
+      <ModifiedTimestamp>2019-05-27.00:58:31.960</ModifiedTimestamp>
+      <ColNames>beverageId</ColNames>
+      <RefTableId>1154103152</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>beverage</RefTableName>
+      <RefKeyName>PK_beverage</RefKeyName>
+      <RefColNames>id</RefColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <check id="112" parent="29" name="CK__orderDeta__quant__5224328E">
+      <ObjectId>1378103950</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-05-27.00:58:31.960</CreatedTimestamp>
+      <ModifiedTimestamp>2019-05-27.00:58:31.960</ModifiedTimestamp>
+      <ColNames>quantity</ColNames>
+      <Predicate>[quantity]&gt;0</Predicate>
+    </check>
+    <column id="113" parent="30" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="114" parent="30" name="packageType">
+      <Position>2</Position>
+      <DataType>nvarchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="115" parent="30" name="capacity">
+      <Position>3</Position>
+      <DataType>decimal(6,3)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="116" parent="30" name="PK_package">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="117" parent="30" name="PK_package">
+      <ObjectId>1074102867</ObjectId>
+      <CreatedTimestamp>2019-05-27.00:58:31.950</CreatedTimestamp>
+      <ModifiedTimestamp>2019-05-27.00:58:31.950</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_package</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="118" parent="31" name="id">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="119" parent="31" name="firstName">
+      <Position>2</Position>
+      <DataType>nvarchar(30 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="120" parent="31" name="lastName">
+      <Position>3</Position>
+      <DataType>nvarchar(30 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="121" parent="31" name="email">
+      <Position>4</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+    </column>
+    <column id="122" parent="31" name="phoneNumber">
+      <Position>5</Position>
+      <DataType>nvarchar(20 char)|0s</DataType>
+    </column>
+    <index id="123" parent="31" name="PK_provider">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="124" parent="31" name="PK_provider">
+      <ObjectId>1138103095</ObjectId>
+      <CreatedTimestamp>2019-05-27.00:58:31.950</CreatedTimestamp>
+      <ModifiedTimestamp>2019-05-27.00:58:31.950</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PK_provider</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="125" parent="32" name="login">
+      <Position>1</Position>
+      <DataType>nchar(25 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="126" parent="32" name="password">
+      <Position>2</Position>
+      <DataType>nchar(128 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="127" parent="32" name="PK_users">
+      <Position>1</Position>
+      <ColNames>login</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="128" parent="32" name="PK_users">
+      <ObjectId>1410104064</ObjectId>
+      <CreatedTimestamp>2019-05-27.00:58:31.963</CreatedTimestamp>
+      <ModifiedTimestamp>2019-05-27.00:58:31.963</ModifiedTimestamp>
+      <ColNames>login</ColNames>
+      <UnderlyingIndexName>PK_users</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="129" parent="33" name="id">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="130" parent="33" name="name">
+      <Position>2</Position>
+      <DataType>nvarchar(30 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="131" parent="33" name="beverageType">
+      <Position>3</Position>
+      <DataType>nvarchar(20 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="132" parent="33" name="flavor">
+      <Position>4</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+    </column>
+    <column id="133" parent="33" name="gasType">
+      <Position>5</Position>
+      <DataType>nvarchar(20 char)|0s</DataType>
+    </column>
+    <column id="134" parent="33" name="packageType">
+      <Position>6</Position>
+      <DataType>nvarchar(20 char)|0s</DataType>
+    </column>
+    <column id="135" parent="33" name="quantity">
+      <Position>7</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="136" parent="33" name="price">
+      <Position>8</Position>
+      <DataType>money|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="137" parent="33" name="total price">
+      <Position>9</Position>
+      <DataType>money|0s</DataType>
+    </column>
+    <column id="138" parent="34" name="id">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="139" parent="34" name="firstName">
+      <Position>2</Position>
+      <DataType>nvarchar(30 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="140" parent="34" name="lastName">
+      <Position>3</Position>
+      <DataType>nvarchar(30 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="141" parent="34" name="orderDate">
+      <Position>4</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+  </database-model>
+</dataSource>
