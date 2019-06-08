@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.HBox?>
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0"
+      prefWidth="1200.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="main.controller.LogonRegistryController" stylesheets="@../../../resources/style.css">
+    <TableView fx:id="table">
+        <columns>
+            <TableColumn fx:id="idColumn" minWidth="-1.0" prefWidth="500.0" text="lp"/>
+            <TableColumn fx:id="dateColumn" minWidth="-1.0" prefWidth="500.0" text="data"/>
+            <TableColumn fx:id="loginColumn" minWidth="-1.0" prefWidth="500.0" text="login"/>
+        </columns>
+        <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY"/>
+        </columnResizePolicy>
+    </TableView>
+</HBox>

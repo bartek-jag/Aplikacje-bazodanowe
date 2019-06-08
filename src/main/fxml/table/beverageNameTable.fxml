@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<TableView fx:id="table" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1"
+           fx:controller="main.controller.table.BeverageNameTableController">
+    <columns>
+        <TableColumn fx:id="idColumn" minWidth="-1.0" prefWidth="500.0" text="id"/>
+        <TableColumn fx:id="nameColumn" minWidth="-1.0" prefWidth="500.0" text="nazwa"/>
+    </columns>
+    <columnResizePolicy>
+        <TableView fx:constant="CONSTRAINED_RESIZE_POLICY"/>
+    </columnResizePolicy>
+</TableView>

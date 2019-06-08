@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Text?>
+<HBox fx:id="formHBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+      prefHeight="720.0" prefWidth="1200.0" stylesheets="@../../../resources/style.css"
+      xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="main.controller.add.AddBeverageController">
+    <AnchorPane prefHeight="200.0" prefWidth="200.0">
+        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Dodaj zamówienie" wrappingWidth="148.13671875"
+              AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0"/>
+        <TextField fx:id="idField" editable="false" layoutX="10.0" layoutY="27.0" onMouseClicked="#loadBeverageTable"
+                   promptText="id"/>
+        <TextField fx:id="beverageNameIdField" editable="false" layoutX="10.0" layoutY="52.0"
+                   onMouseClicked="#loadBeverageNameTable" promptText="nazwa"/>
+        <TextField fx:id="beverageTypeIdField" editable="false" layoutX="10.0" layoutY="77.0"
+                   onMouseClicked="#loadBeverageTypeTable" promptText="typ"/>
+        <TextField fx:id="flavorIdField" editable="false" layoutX="10.0" layoutY="102.0"
+                   onMouseClicked="#loadFlavorTable" promptText="smak"/>
+        <TextField fx:id="gasTypeIdField" editable="false" layoutX="10.0" layoutY="127.0"
+                   onMouseClicked="#loadgasTypeTable" promptText="gaz"/>
+        <TextField fx:id="manufacturerIdField" editable="false" layoutX="10.0" layoutY="152.0"
+                   onMouseClicked="#loadManufacturerTable" promptText="producent"/>
+        <TextField fx:id="packageIdField" editable="false" layoutX="10.0" layoutY="177.0"
+                   onMouseClicked="#loadPackageTable" promptText="opakowanie"/>
+        <TextField fx:id="providerIdField" editable="false" layoutX="10.0" layoutY="202.0"
+                   onMouseClicked="#loadProviderTable" promptText="dostawca"/>
+        <TextField fx:id="quantityField" layoutX="10.0" layoutY="227.0" promptText="ilość"/>
+        <TextField fx:id="priceField" layoutX="10.0" layoutY="252.0" promptText="cena za sztukę"/>
+        <Button fx:id="addButton" layoutX="10.0" layoutY="348.0" mnemonicParsing="false" onAction="#add" text="Dodaj"
+                AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0"/>
+        <Button layoutX="10.0" layoutY="313.0" mnemonicParsing="false" onAction="#clear" text="Wyczyść"
+                AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0"/>
+        <Button fx:id="deleteButton" disable="true" layoutX="10.0" layoutY="384.0" mnemonicParsing="false"
+                onAction="#delete" text="Usuń" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0"/>
+    </AnchorPane>
+    <fx:include fx:id="beverageTable" source="../table/beverageTable.fxml"/>
+    <fx:include fx:id="beverageNameTable" source="../table/beverageNameTable.fxml"/>
+    <fx:include fx:id="beverageTypeTable" source="../table/beverageTypeTable.fxml"/>
+    <fx:include fx:id="flavorTable" source="../table/flavorTable.fxml"/>
+    <fx:include fx:id="gasTypeTable" source="../table/gasTypeTable.fxml"/>
+    <fx:include fx:id="manufacturerTable" source="../table/manufacturerTable.fxml"/>
+    <fx:include fx:id="packageTable" source="../table/packageTable.fxml"/>
+    <fx:include fx:id="providerTable" source="../table/providerTable.fxml"/>
+</HBox>

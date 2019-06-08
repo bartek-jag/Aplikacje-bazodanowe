@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<TableView fx:id="table" xmlns="http://javafx.com/javafx"
+           xmlns:fx="http://javafx.com/fxml"
+           fx:controller="main.controller.table.BeverageTableController">
+    <columns>
+        <TableColumn fx:id="idColumn" minWidth="-1.0" prefWidth="500.0" text="id"/>
+        <TableColumn fx:id="beverageNameIdColumn" minWidth="-1.0" prefWidth="500.0" text="nazwa"/>
+        <TableColumn fx:id="beverageTypeIdColumn" minWidth="-1.0" prefWidth="500.0" text="typ"/>
+        <TableColumn fx:id="flavorIdColumn" minWidth="-1.0" prefWidth="500.0" text="smak"/>
+        <TableColumn fx:id="gasTypeIdColumn" minWidth="-1.0" prefWidth="500.0" text="gaz"/>
+        <TableColumn fx:id="manufacturerIdColumn" minWidth="-1.0" prefWidth="500.0" text="producent"/>
+        <TableColumn fx:id="packageIdColumn" minWidth="-1.0" prefWidth="500.0" text="opakowanie"/>
+        <TableColumn fx:id="providerIdColumn" minWidth="-1.0" prefWidth="500.0" text="dostawca"/>
+        <TableColumn fx:id="quantityColumn" minWidth="-1.0" prefWidth="500.0" text="ilość"/>
+        <TableColumn fx:id="priceColumn" minWidth="-1.0" prefWidth="500.0" text="cena"/>
+    </columns>
+    <columnResizePolicy>
+        <TableView fx:constant="CONSTRAINED_RESIZE_POLICY"/>
+    </columnResizePolicy>
+</TableView>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Text?>
+<HBox fx:id="formHBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+      prefHeight="720.0" prefWidth="1200.0" stylesheets="@../../../resources/style.css"
+      xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="main.controller.add.AddOorderController">
+    <AnchorPane prefHeight="200.0" prefWidth="200.0">
+        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Dodaj zamówienie" wrappingWidth="148.13671875"
+              AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0"/>
+        <TextField fx:id="idField" editable="false" layoutX="10.0" layoutY="27.0" onMouseClicked="#loadOorderTable"
+                   promptText="id"/>
+        <TextField fx:id="customerIdField" editable="false" layoutX="10.0" layoutY="52.0"
+                   onMouseClicked="#loadCustomerTable" promptText="klient"/>
+        <TextField fx:id="employeeIdField" editable="false" layoutX="10.0" layoutY="77.0"
+                   onMouseClicked="#loadEmployeeTable" promptText="pracownik"/>
+        <TextField fx:id="orderDateField" layoutX="10.0" layoutY="102.0" promptText="data zamowienia"/>
+        <Button fx:id="addButton" layoutX="10.0" layoutY="348.0" mnemonicParsing="false" onAction="#add" text="Dodaj"
+                AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0"/>
+        <Button layoutX="10.0" layoutY="313.0" mnemonicParsing="false" onAction="#clear" text="Wyczyść"
+                AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0"/>
+        <Button fx:id="deleteButton" disable="true" layoutX="10.0" layoutY="384.0" mnemonicParsing="false"
+                onAction="#delete" text="Usuń" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0"/>
+    </AnchorPane>
+    <fx:include fx:id="oorderTable" source="../table/oorderTable.fxml"/>
+    <fx:include fx:id="customerTable" source="../table/customerTable.fxml"/>
+    <fx:include fx:id="employeeTable" source="../table/employeeTable.fxml"/>
+</HBox>

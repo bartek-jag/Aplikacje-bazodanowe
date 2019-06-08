@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="main.entity.OorderEntity" table="oorder" schema="dbo" catalog="wholesale">
+        <id name="id">
+            <column name="id" sql-type="int"/>
+        </id>
+        <property name="customerId">
+            <column name="customerId" sql-type="int"/>
+        </property>
+        <property name="employeeId">
+            <column name="employeeId" sql-type="int"/>
+        </property>
+        <property name="orderDate">
+            <column name="orderDate" sql-type="datetime"/>
+        </property>
+        <many-to-one name="customerByCustomerId" class="main.entity.CustomerEntity">
+            <column name="customerId"/>
+        </many-to-one>
+        <many-to-one name="employeeByEmployeeId" class="main.entity.EmployeeEntity">
+            <column name="employeeId"/>
+        </many-to-one>
+        <set name="orderDetailsById" inverse="true">
+            <key>
+                <column name="oorderId"/>
+            </key>
+            <one-to-many not-found="ignore" class="main.entity.OrderDetailsEntity"/>
+        </set>
+    </class>
+</hibernate-mapping>

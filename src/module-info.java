@@ -16,7 +16,9 @@ module Hurtownia {
     requires net.bytebuddy;
 
     opens main;
-    opens main.model;
+    opens main.entity;
     opens main.controller;
+    opens main.controller.add;
+    opens main.controller.table;
 }
 

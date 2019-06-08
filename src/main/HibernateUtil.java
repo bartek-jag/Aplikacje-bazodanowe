@@ -1,6 +1,6 @@
 package main;
 
-import main.model.*;
+import main.entity.*;
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.cfg.Configuration;
@@ -22,7 +22,6 @@ public class HibernateUtil {
             configuration.addAnnotatedClass(FlavorEntity.class);
             configuration.addAnnotatedClass(GasTypeEntity.class);
             configuration.addAnnotatedClass(ManufacturerEntity.class);
-            //configuration.addAnnotatedClass(OldAdress.class);
             configuration.addAnnotatedClass(OorderEntity.class);
             configuration.addAnnotatedClass(OrderDetailsEntity.class);
             configuration.addAnnotatedClass(PackageEntity.class);
@@ -30,6 +29,7 @@ public class HibernateUtil {
             configuration.addAnnotatedClass(UsersEntity.class);
             configuration.addAnnotatedClass(OrdersViewEntity.class);
             configuration.addAnnotatedClass(OrderDetailsViewEntity.class);
+            configuration.addAnnotatedClass(LogonRegistryEntity.class);
 
             StandardServiceRegistryBuilder standardServiceRegistryBuilder = new StandardServiceRegistryBuilder();
             standardServiceRegistryBuilder.applySettings(configuration.getProperties());
@@ -42,8 +42,6 @@ public class HibernateUtil {
     }
 
     public static SessionFactory getSessionFactory() {
-        //Logger logger = Logger.getLogger(HibernateUtil.class);
-        //logger.setLevel(Level.OFF);
         return sessionFactory;
     }
 

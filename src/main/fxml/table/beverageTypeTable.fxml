@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<TableView fx:id="table" xmlns="http://javafx.com/javafx"
+           xmlns:fx="http://javafx.com/fxml"
+           fx:controller="main.controller.table.BeverageTypeTableController">
+        <columns>
+            <TableColumn fx:id="idColumn" minWidth="-1.0" prefWidth="500.0" text="id"/>
+            <TableColumn fx:id="beverageTypeColumn" minWidth="-1.0" prefWidth="500.0" text="nazwa"/>
+            <TableColumn fx:id="taxColumn" minWidth="-1.0" prefWidth="500.0" text="podatek"/>
+        </columns>
+        <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY"/>
+        </columnResizePolicy>
+    </TableView>

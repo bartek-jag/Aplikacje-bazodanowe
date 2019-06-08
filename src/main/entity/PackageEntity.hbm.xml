@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="main.entity.PackageEntity" table="package" schema="dbo" catalog="wholesale">
+        <id name="id">
+            <column name="id" sql-type="int"/>
+        </id>
+        <property name="packageType">
+            <column name="packageType" sql-type="nvarchar(20)" length="20"/>
+        </property>
+        <property name="capacity">
+            <column name="capacity" sql-type="decimal(6,3)" precision="6" scale="3"/>
+        </property>
+        <set name="beveragesById" inverse="true">
+            <key>
+                <column name="packageId"/>
+            </key>
+            <one-to-many not-found="ignore" class="main.entity.BeverageEntity"/>
+        </set>
+    </class>
+</hibernate-mapping>
